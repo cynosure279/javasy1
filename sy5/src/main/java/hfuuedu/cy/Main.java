@@ -10,8 +10,10 @@ public class Main {
         if(choice==1){
             int n = sc.nextInt();
             tm1 tm = new tm1(n);
+            tm.print();
         }else if(choice==2){
-
+            String s = sc.next();
+            tm2.func(s);
         }
 
     }
